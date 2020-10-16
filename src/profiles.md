@@ -1,6 +1,6 @@
 # Profiles
 
-IPython has support for multiple profiles. This is handy if you are working on different projects and want to tweak some behaviors, or test out new settings without changing how IPython will behave globally. By default, IPython will always run the `default` profile. Once you specify a new profile to create, new configuration files will be created. To create a new profile named `zagnut`<sup><a href="#fn1" id="ref1">1</a></sup>, enter:
+IPython has support for multiple profiles. This is handy if you are working on different projects and want to tweak some behaviors, or test out new settings without changing how IPython will behave globally. By default, IPython will always run the `default` profile. Once you specify a new profile to create, new configuration files will be created. To create a new profile named `zagnut`, enter: <sup><a href="#fn1" id="ref1">1</a></sup>
 
 ```
 ipython profile create zagnut

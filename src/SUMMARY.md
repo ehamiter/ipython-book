@@ -16,6 +16,10 @@
 
 - [Profiles](./profiles.md)
 
+- [ipython_config.py](./ipython-config.md)
+  - [InteractiveShellApp.exec_lines](./config/exec_lines.md)
+  - [InteractiveShellApp.banner1](./config/banner1.md)
+
 - [Magic Commands]()
 
 [Colophon](./colophon.md)
