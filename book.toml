@@ -9,3 +9,7 @@ title = "IPython for Web Devs"
 theme = "src/theme"
 git-repository-url = "https://github.com/ehamiter/ipython-book"
 curly-quotes = true
+
+[output.html.fold]
+enable = false
+level = 0

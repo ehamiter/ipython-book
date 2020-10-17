@@ -69,12 +69,14 @@ pre.output {
     font-size: 0.666em;
     padding: 0.5em;
     margin: 3rem 0;
+    border-radius: 4px;
 }
 
 code {
     font-family: Edlo, "Source Code Pro", Consolas, "Ubuntu Mono", Menlo, "DejaVu Sans Mono", monospace, monospace !important;
     font-size: 0.666em;
     margin: 3rem 0;
+    border-radius: 4px;
 }
 
 .cover-huge {
