@@ -1,6 +1,6 @@
 # Setup
 
-Some slight assumptions are going to be made. I presume you own a computer, or at least have access to one. I am also going to assume it is of a Mac, Linux, or Windows variety. A further assumption is that you have Python 3 installed, a terminal program to access it, and the Python package installer,  `pip`.
+Some slight assumptions are going to be made. I presume you own a computer, or at least have access to one. I am also going to assume it is of a Mac, Linux, or Windows variety. A further presumption is that you have Python 3 installed, a terminal program to access it, and the Python package installer,  `pip`.
 
 If the above is not true, there are a few remedies:
 
