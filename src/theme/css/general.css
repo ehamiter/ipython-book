@@ -225,13 +225,21 @@ blockquote {
     border-bottom: .1em solid var(--quote-border);
 }
 
+sup.footnote-reference {
+    vertical-align: unset;
+    font-size: .7em;
+    position: relative;
+    bottom: 0.7em;
+    right: 0.3em;
+}
+
 :not(.footnote-definition) + .footnote-definition,
 .footnote-definition + :not(.footnote-definition) {
     margin-top: 2em;
 }
 .footnote-definition {
-    font-size: 0.9em;
-    margin: 0.5em 0;
+    font-size: 0.8em;
+    line-height: 0;
 }
 .footnote-definition p {
     display: inline;

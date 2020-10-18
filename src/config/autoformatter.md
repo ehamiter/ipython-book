@@ -14,27 +14,29 @@ c.TerminalInteractiveShell.autoformatter = 'black'
 Enabling this can turn something like this:
 
 <pre class="output">
-In [1]: prices = {
-   ...: 'apple': 0.40, 'banana': 0.50
-   ...: }
-   ...: my_purchase = {
-   ...:     'apple': 1,
-   ...:     'banana': 6}
-   ...: grocery_bill = sum(
-   ...: prices[fruit] * my_purchase[fruit]
-   ...:                    for fruit in my_purchase
-   ...:                    )
-   ...: print('I owe the grocer $%.2f' % grocery_bill)
+In [1]: cost = {
+    ...: 'apple': 0.40,
+    ...: 'banana': 0.50}
+    ...: bought = {
+    ...:     'apple': 1,
+    ...:     'banana': 6}
+    ...: bill = sum(
+    ...: cost[fruit] * bought[fruit]
+    ...:                    for fruit in bought
+    ...:                    )
+    ...: print(
+    ...: 'I owe the grocer $%.2f' % bill
+    ...: )
 I owe the grocer $3.40
 </pre>
 
 …into this:
 
 <pre class="output">
-In [1]: prices = {"apple": 0.40, "banana": 0.50}
-   ...: my_purchase = {"apple": 1, "banana": 6}
-   ...: grocery_bill = sum(prices[fruit] * my_purchase[fruit] for fruit in my_purchase)
-   ...: print("I owe the grocer $%.2f" % grocery_bill)
+In [1]: cost = {"apple": 0.40, "banana": 0.50}
+    ...: bought = {"apple": 1, "banana": 6}
+    ...: bill = sum(cost[fruit] * bought[fruit] for fruit in bought)
+    ...: print("I owe the grocer $%.2f" % bill)
 I owe the grocer $3.40
 </pre>
 
