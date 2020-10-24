@@ -22,7 +22,7 @@ For code snippets, you can copy the input by clicking on the copy symbol:
 ```
 ipython --version
 ```
-The resulting output is shown in a darker background:
+The resulting output is shown in a color-inverted block:
 <pre class="output">
 7.18.1
 </pre>

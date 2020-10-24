@@ -29,7 +29,7 @@
   - [highlighting_style](./config/highlighting_style.md)
   - [pdb](./config/pdb.md)
 
-- [Magic Commands](./magic/commands.md)
+- [Magic Commands](./magic-commands.md)
   - [timeit](./magic/timeit.md)
 
 [Colophon](./colophon.md)

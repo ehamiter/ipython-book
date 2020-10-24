@@ -10,3 +10,5 @@ Per the first blurb on [IPython's web page](https://ipython.org/), it is describ
 You can see that IPython has a veritable treasure trove of very powerful features. This book won't be covering *any* of those.
 
 Instead, we are going to explore the interactive shell via the command line that one would typically use in conjunction with Python web development, typically when working with a Django / Flask / Tornado / other Python web framework.
+
+As far as specific versions go, this book will cover Python 3.8.2 and IPython 7.18.1.

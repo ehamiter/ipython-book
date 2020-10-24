@@ -64,8 +64,9 @@ pre.output {
     white-space: -pre-wrap;      /* Opera 4-6 */
     white-space: -o-pre-wrap;    /* Opera 7 */
     word-wrap: break-word;       /* Internet Explorer 5.5+ */  
-    background-color: #cccccc;
-    font-family: Edlo, "Source Code Pro", Consolas, "Ubuntu Mono", Menlo, "DejaVu Sans Mono", monospace, monospace !important;
+    color: var(--bg);
+    background-color: var(--fg);
+    font-family: Edlo, "Source Code Pro", Consolas, "Ubuntu Mono", Menlo, "DejaVu Sans Mono", monospace !important;
     font-size: 0.666em;
     padding: 0.5em;
     margin: 3rem 0;
@@ -73,7 +74,7 @@ pre.output {
 }
 
 code {
-    font-family: Edlo, "Source Code Pro", Consolas, "Ubuntu Mono", Menlo, "DejaVu Sans Mono", monospace, monospace !important;
+    font-family: Edlo, "Source Code Pro", Consolas, "Ubuntu Mono", Menlo, "DejaVu Sans Mono", monospace !important;
     font-size: 0.666em;
     margin: 3rem 0;
     border-radius: 4px;
