@@ -6,14 +6,14 @@ Excellent question. While the [Jupyter notebook](https://ipython.org/notebook.ht
 
 > What's wrong with just using `python` to open a shell?
 
-Another wonderful question. You're really good at this. The answer is that there is *nothing* wrong with using the standard Python shell, but the reason to give IPthon a try is that you get a lot of things for free. Among some of these features are:
+Another wonderful question. You're really good at this. The answer is that there is *nothing* wrong with using the standard Python shell, but the reason to give IPython a try is that you get a lot of things for free. Among some of these features are:
 
   * Persistent input history
   * Tab completion
   * Extensible system of 'magic' commands
   * A rich configuration system
   * Syntax highlighting as you type
-  * Integration with command line editor
+  * Integration with a command line editor
 
 …and much, much more.
 

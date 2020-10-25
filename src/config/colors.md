@@ -11,3 +11,9 @@ You can select from a few color schemes— I use a dark background for my termin
 ```
 c.InteractiveShell.colors = 'LightBG'
 ```
+
+You can also change this on-the-fly in the shell by invoking the magic command `%colors`:
+
+```
+%colors Linux
+```
