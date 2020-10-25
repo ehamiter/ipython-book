@@ -42,4 +42,10 @@ In [5]: %automagic
 Automagic is OFF, % prefix IS needed for line magics.
 </pre>
 
-Let's look at some specific examples of these different types of magic commands.
+You can view all available magic commands by running `%lsmagic`. Some of them will be recognizable as system commands and they behave as you might expect:
+
+<pre class="output">
+%alias  %cat  %cd  %clear  %less  %ls  %man  %mkdir  %more  %mv  %pip  %popd  %pushd  %pwd  %rm  %rmdir
+</pre>
+
+Let's look at some of the other commands that might be unfamiliar, and some examples of how you might use them.

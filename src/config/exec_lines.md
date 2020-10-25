@@ -11,7 +11,7 @@
 c.InteractiveShellApp.exec_lines = ['import this']
 ```
 
-That might not be totally practical, but it could be inspiring. An extension that we will talk more about later is the `autoreload` extension. It's pretty nice to have this available without having to manually load it— it lets you change source code in an editor while the shell is still open, and it will reload its value without requiring you to have to restart your session. <sup class="footnote-reference"><a href="#fn6" id="ref6">6</a></sup>
+That might not be totally practical, but it could be inspiring. An extension that we will talk more about later is the [`autoreload`](../magic/autoreload.md) extension. It's pretty nice to have this available without having to manually load it— it lets you change source code in an editor while the shell is still open, and it will reload its value without requiring you to have to restart your session. <sup class="footnote-reference"><a href="#fn6" id="ref6">6</a></sup>
 
 You can enable it to run by default with these lines:
 

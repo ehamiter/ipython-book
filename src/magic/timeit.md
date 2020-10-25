@@ -1,5 +1,10 @@
 # timeit
 
+<pre class="output">
+%timeit:
+    Time execution of a Python statement or expression
+</pre>
+
 `%timeit` is a commonly used magic command used for gauging the efficiency and speed of a function. Suppose we have two methods that return the same result, but we're not exactly sure which one is more efficient (which is especially helpful if you're not super familiar with [Big O notation](https://en.wikipedia.org/wiki/Big_O_notation)).
 
 <pre class="output">
