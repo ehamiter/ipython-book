@@ -91,7 +91,6 @@
   - [unalias]()
   - [unload_ext]()
   - [who]()
-  - [who_ls]()
   - [whos]()
   - [xdel]()
   - [xmode]()
