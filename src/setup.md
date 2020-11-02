@@ -19,13 +19,9 @@ pip install ipython
 We can test that IPython was successfully installed by entering:
 
 ```
-ipython
+ipython --version
 ```
 
 <pre class="output">
-Python 3.8.2 (default, Jul  5 2020, 15:01:50)
-Type 'copyright', 'credits' or 'license' for more information
-IPython 7.18.1 -- An enhanced Interactive Python. Type '?' for help.
-
-In [1]:
+7.18.1
 </pre>

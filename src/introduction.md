@@ -11,4 +11,6 @@ You can see that IPython has a veritable treasure trove of very powerful feature
 
 Instead, we are going to explore the interactive shell via the command line that one would typically use in conjunction with Python web development, typically when working with a Django / Flask / Tornado / other Python web framework.
 
-As far as specific versions go, this book will cover Python 3.8.2 and IPython 7.18.1.
+We are not going to cover every single feature that is available. We are going to concentrate on the ones that I feel will give you a significant boost in efficiency and usefulness. I encourage you to explore the official documentation in depth.
+
+As far as specific versions go, this book will cover what is currently stable at the time of writing, which is Python 3.8.2 and IPython 7.18.1.

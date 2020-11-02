@@ -33,7 +33,15 @@ IPython profile: zagnut
 In [1]:
 </pre>
 
-If you are a Django developer and want to use an IPython profile in conjunction with the Django shell, you can do it by using the wonderful django-extensions package's [`shell_plus`](https://django-extensions.readthedocs.io/en/latest/shell_plus.html) extension (which gives you some niceties like auto importing your models), and pass the profile name in as:
+To exit the shell, you can enter `exit` or use the keyboard shortcut `CTRL-D`.
+
+If you are a Django developer and want to use an IPython profile in conjunction with the Django shell, you can do it by using the `django-extensions` package:
+
+```
+pip install django-extensions
+```
+
+It has a [`shell_plus`](https://django-extensions.readthedocs.io/en/latest/shell_plus.html) extension (which gives you some niceties like auto importing your models), and you can pass the profile name in as:
 
 ```
 python manage.py shell_plus --ipython -- --profile=zagnut

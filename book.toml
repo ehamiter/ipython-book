@@ -11,5 +11,5 @@ git-repository-url = "https://github.com/ehamiter/ipython-book"
 curly-quotes = true
 
 [output.html.fold]
-enable = true
+enable = false
 level = 0

@@ -5,7 +5,7 @@
     %aimport => Import modules for automatic reloading.
 </pre>
 
-`%aimport` lets you specify a module to import that will automatically be reloaded. This command works alongside [`%autoreload`](./autoreload.md), which lets you specify the frequency or inclusion of what methods will be autoreloaded.
+`%aimport` lets you specify a module to import that will automatically be reloaded. This command works alongside [`%autoreload`](./autoreload.md), which lets you specify the frequency or inclusion of what modules will be autoreloaded.
 
 <pre class="output">
 %aimport
