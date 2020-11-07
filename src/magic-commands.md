@@ -23,7 +23,7 @@ Magic commands can be used *without* typing the `%` sign by default— this beha
 
 <i class="fa fa-fw fa-warning"></i> Keep in mind that if you create a variable that collides with an automagic command, using your variable (without the explicit `%` prefix) will override the magic command's reference, e.g.
 
-<pre class="output">
+```python
 In [1]: automagic
 
 Automagic is OFF, % prefix IS needed for line magics.
@@ -40,9 +40,9 @@ Out[4]: &lt;function print&gt;
 In [5]: %automagic
 
 Automagic is OFF, % prefix IS needed for line magics.
-</pre>
+```
 
-You can view all available magic commands by running `%lsmagic`. Some of them will be recognizable as system commands and they behave as you might expect:
+You can view all available magic commands by running [`%lsmagic`](../magic/lsmagic.md). Some of them will be recognizable as system commands and they behave as you might expect:
 
 <pre class="output">
 %alias  %cat  %cd  %clear  %less  %ls  %man  %mkdir  %more  %mv  %pip  %popd  %pushd  %pwd  %rm  %rmdir

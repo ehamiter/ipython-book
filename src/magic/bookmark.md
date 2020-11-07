@@ -17,7 +17,7 @@ Setting bookmarks is very handy if you find yourself changing directories within
 
 Here's an example that shows setting a bookmark to the current directory, navigating to the user's home directory, then coming back to the project:
 
-<pre class="output">
+```python
 In [1]: %pwd
 Out[1]: '/Users/eric/projects/ipython-book'
 
@@ -39,6 +39,6 @@ In [6]: %cd -b book
 
 In [7]: %pwd
 Out[7]: '/Users/eric/projects/ipython-book'
-</pre>
+```
 
 You can also omit the `-b` after the `%cd` command if there's no directory with the name of your bookmark. The bookmarks are associated with each profile and persist through IPython sessions.

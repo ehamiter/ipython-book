@@ -4,7 +4,7 @@ This is not a "learn how to program" book, nor is it geared toward data visualiz
 
 If you're a Django or Flask developer that will run `python manage.py shell` or `flask shell` in order to examine objects and test out bits of code, you're in the right place. This should look familiar to you:
 
-<pre class="output">
+```python
 >>> u = User.objects.filter(email__icontains='dev')
 
 >>> len(u)
@@ -20,7 +20,7 @@ True
 
 >>> first_dev.email
 'samanthasmithdev@techiecompany.com'
-</pre>
+```
 
 
 If this leaves you slightly befuddled, the rest may be a bit hard to follow. You can learn more about [Python and the shell here](https://www.python.org/about/gettingstarted/).

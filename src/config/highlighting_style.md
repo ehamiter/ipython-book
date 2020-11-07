@@ -9,7 +9,7 @@
 
 [Pygments](https://pygments.org/) is a generic syntax highlighter used to prettify source code. You can set your style of choice by entering:
 
-```
+```python
 c.TerminalInteractiveShell.highlighting_style = 'monokai'
 ```
 
@@ -20,7 +20,7 @@ pip install Pygments
 ```
 
 You can view all of the available styles (below is a sample of the complete output):
-```
+```python
 pygmentize -L styles
 ```
 

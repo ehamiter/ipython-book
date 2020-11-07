@@ -7,7 +7,7 @@
 
 `InteractiveShellApp.exec_lines` is a list that will execute on IPython's startup. If you wanted to see *The Zen of Python* by Tim Peters everytime you fired up the shell, you could put in:
 
-```
+```python
 c.InteractiveShellApp.exec_lines = ['import this']
 ```
 
@@ -15,7 +15,7 @@ That might not be totally practical, but it could be inspiring. An extension tha
 
 You can enable it to run by default with these lines:
 
-```
+```python
 c.InteractiveShellApp.exec_lines = []
 c.InteractiveShellApp.exec_lines.append('%load_ext autoreload')
 c.InteractiveShellApp.exec_lines.append('%autoreload 2')    

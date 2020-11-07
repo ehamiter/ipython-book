@@ -14,15 +14,18 @@ As far as the features go, you can:
 
 You can also navigate by using your keyboard's left and right arrows.
 
+On the top right of the page, you can either print <i class="fa fa-fw fa-print"></i> this book in its entirety or visit its Github <i class="fa fa-fw fa-github"></i> repository, where the source code lives.
+
 A warning symbol will appear by a section that has potentially tricky parts that require close attention:
 
 > <i class="fa fa-fw fa-warning"></i> Don't run on wet tiled surfaces.
 
 For code snippets, you can copy the input by clicking on the copy symbol:
-```
+```python
 ipython --version
 ```
-The resulting output is shown in a color-inverted block:
+
+Output from shell commands is represented as in a color-inverted block:
 <pre class="output">
 7.18.1
 </pre>

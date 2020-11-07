@@ -7,11 +7,11 @@
 
 You can customize the banner that is displayed on startup-- if you're the kind of person who likes to tweak every customizable aspect of a system. You could cut it down to the important bits if you *are* into the whole brevity thing: <sup class="footnote-reference"><a href="#fn3" id="ref3">3</a></sup>
 
-```
+```python
 c.InteractiveShell.banner1 = "Python 3.8.2 -- IPython 7.18.1\n"
 ```
 …or eliminate it entirely:
-```
+```python
 c.TerminalIPythonApp.display_banner = False
 ```
 

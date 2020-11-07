@@ -13,3 +13,6 @@ curly-quotes = true
 [output.html.fold]
 enable = false
 level = 0
+
+[output.html.print]
+enable = true

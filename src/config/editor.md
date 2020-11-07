@@ -5,9 +5,9 @@
 #  Default: 'subl'
 </pre>
 
-The default listed above is `subl` for me because I use Sublime Text as my default editor. For you, it may be `vim`, `vscode`, `emacs`, `nano`, or any number of text editors. For my particular case, as we will explore later, there is an `%edit` magic command in IPython, which lets you …well, edit things. For whatever reason, Sublime Text does not work well with the `%edit` command. <sup class="footnote-reference"><a href="#fn4" id="ref4">4</a></sup>Because of this, I want to set IPython's editor of choice to something else– `vim`, in my case: <sup class="footnote-reference"><a class="superscript" href="#fn5" id="ref5">5</a></sup>
+The default listed above is `subl` for me because I use Sublime Text as my default editor. For you, it may be `vim`, `vscode`, `emacs`, `nano`, or any number of text editors. For my particular case, as we will explore later, there is an [`%edit`](../magic/edit.md) magic command in IPython, which lets you …well, edit things. For whatever reason, Sublime Text does not work well with the `%edit` command. <sup class="footnote-reference"><a href="#fn4" id="ref4">4</a></sup>Because of this, I want to set IPython's editor of choice to something else– `vim`, in my case: <sup class="footnote-reference"><a class="superscript" href="#fn5" id="ref5">5</a></sup>
 
-```
+```python
 c.TerminalInteractiveShell.editor = 'vim'
 ```
 

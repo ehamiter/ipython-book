@@ -190,6 +190,13 @@ h4 a.header:target {
     text-decoration: none;
 }
 
+a.bmc-btn:active,
+a.bmc-btn:link, 
+a.bmc-btn:visited, 
+a.bmc-btn:hover {
+    color: #ffffff !important;  
+}
+
 table {
     margin: 0 auto;
     border-collapse: collapse;
