@@ -25,7 +25,7 @@ For code snippets, you can copy the input by clicking on the copy symbol:
 ipython --version
 ```
 
-Output from shell commands is represented as in a color-inverted block:
+Output from shell commands is represented in a color-inverted block:
 <pre class="output">
 7.18.1
 </pre>

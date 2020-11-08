@@ -10,7 +10,7 @@ Another wonderful question. You're really good at this. The answer is that there
 
   * Persistent input history
   * Tab completion
-  * Extensible system of 'magic' commands
+  * Extensible system of "magic" commands
   * A rich configuration system
   * Syntax highlighting as you type
   * Integration with a command line editor

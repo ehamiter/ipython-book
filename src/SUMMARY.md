@@ -42,7 +42,7 @@
   - [load](./magic/load.md)
   - [lsmagic](./magic/lsmagic.md)
   - [macro](./magic/macro.md)
-  - [magic]()
+  - [magic](./magic/magic.md)
   - [matplotlib]()
   - [notebook]()
   - [page]()

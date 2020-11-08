@@ -192,9 +192,12 @@ h4 a.header:target {
 
 a.bmc-btn:active,
 a.bmc-btn:link, 
-a.bmc-btn:visited, 
+a.bmc-btn:visited {
+    color: #ffffff !important;
+}
+
 a.bmc-btn:hover {
-    color: #ffffff !important;  
+    color: #ffeb3b !important;
 }
 
 table {

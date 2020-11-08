@@ -46,7 +46,7 @@ It's very handy for cleaning up your code style, especially if the project you'r
 pip install black
 ```
 
-Once caveat that I have found is that if you *do* set the autoformatter to `black`, sometimes it will try and format things that aren't necessarily code. To be specific, there is a magic command `%history`, or its alias `%hist`. You use this to list the history of your IPython session's inputs, and by default it lists them without a corresponding number beside each entry. If you *do* want to see a numbered list, you need to pass in the parameter `n`. So, it should look like this:
+Once caveat that I have found is that if you *do* set the autoformatter to `black`, sometimes it will try and format things that aren't necessarily code. To be specific, there is a magic command [`%history`](../magic/history.md), or its alias `%hist`. You use this to list the history of your IPython session's inputs, and by default it lists them without a corresponding number beside each entry. If you *do* want to see a numbered list, you need to pass in the parameter `n`. So, it should look like this:
 
 ```python
 %history -n
