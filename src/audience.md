@@ -1,6 +1,6 @@
 # Who this book is for
 
-This is not a "learn how to program" book, nor is it geared toward data visualization or high performance processing that many may use Jupyter for. The audience in question are Python web developers who are comfortable with [object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming) in a command line environment.
+This is not a "learn how to program" book, nor is it geared toward data visualization or high performance processing that many may use Jupyter for. The audience in question are Python software developers who are comfortable with [object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming) in a command line environment.
 
 If you're a Django or Flask developer that will run `python manage.py shell` or `flask shell` in order to examine objects and test out bits of code, you're in the right place. This should look familiar to you:
 

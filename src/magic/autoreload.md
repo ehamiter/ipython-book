@@ -13,15 +13,19 @@
 
 You can pass in a parameter to either disable reloading completely, only use imports that were specified with the command [`%aimport`](./aimport.md), or reload all modules every time before the code is executed.
 
-<pre class="output">
+Disable automatic reloading:
+```python
 %autoreload 0
-Disable automatic reloading.
+```
 
-%autoreload 1
 Reload all modules imported with %aimport every time before executing
-the Python code typed.
+the Python code typed:
+```python
+%autoreload 1
+```
 
-%autoreload 2
 Reload all modules (except those excluded by %aimport) every time
-before executing the Python code typed.
-</pre>
+before executing the Python code typed:
+```python
+%autoreload 2
+```

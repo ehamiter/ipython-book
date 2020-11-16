@@ -6,11 +6,8 @@ Well… it's free as in freedom, but not free as in beer. Although you don't nec
 
 You are most welcome (and encouraged) to buy me a coffee / beer / pizza to show your appreciation if you enjoy this book and you get something out of it— you learn some new tricks, speed up your efficiency, save your company tens of millions of dollars, and so forth. You can do that by clicking below:
 
-<div class="center-image">
-    <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="ehamiter" data-color="#3776ab" data-emoji="🐍"  data-font="Lato" data-text="Support IPython for Web Devs" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#FFDD00" ></script>
-    <noscript>
-        <a href="https://buymeacoffee.com/ehamiter">Support IPython for Web Devs</a>
-    </noscript>
+<div class="centered">
+    <a href="https://buymeacoffee.com/ehamiter" alt="Donation link to buymeacoffee.com" title="Help the cause, and donate some caffeine!" target="_blank">Support IPython for Web Devs and buy me a coffee!</a>
 </div>
 
 This will not unlock special features of this book, or remove ads, because there are no features to unlock, and no ads to remove. You get the goods up front, and beyond this page, I won't solicit you any further. If you finish the entire book, and learned some cool things, or especially if you find yourself returning here repeatedly for reference, I ask you to please consider being a supporter.

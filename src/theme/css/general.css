@@ -6,6 +6,7 @@
   font-style: normal;
   font-weight: 500;
   src: url('../fonts/edlo.woff2') format('woff2');
+  font-display: swap;
 }
 
 @font-face {
@@ -13,6 +14,7 @@
   font-style: normal;
   font-weight: 400;
   src: url('../fonts/GentiumBookBasic-Regular.woff2') format('woff2');
+  font-display: swap;
 }
 
 @font-face {
@@ -20,6 +22,7 @@
   font-style: italic;
   font-weight: 400;
   src: url('../fonts/GentiumBookBasic-Italic.woff2') format('woff2');
+  font-display: swap;
 }
 
 @font-face {
@@ -27,6 +30,7 @@
   font-style: normal;
   font-weight: 800;
   src: url('../fonts/GentiumBookBasic-Bold.woff2') format('woff2');
+  font-display: swap;
 }
 
 @font-face {
@@ -34,6 +38,7 @@
   font-style: italic;
   font-weight: 800;
   src: url('../fonts/GentiumBookBasic-BoldItalic.woff2') format('woff2');
+  font-display: swap;
 }
 
 /* Base styles and content styles */
@@ -96,7 +101,7 @@ code {
     text-align: center;
 }
 
-.center-image {
+.centered {
     display: flex;
     justify-content: center;
     align-items: center;

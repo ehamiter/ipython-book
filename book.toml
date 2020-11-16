@@ -1,5 +1,6 @@
 [book]
 authors = ["Eric Hamiter"]
+description = "The book IPython for Web Devs will help you learn more about IPython, a rich toolkit that helps you make the most out of using Python interactively."
 language = "en"
 multilingual = false
 src = "src"
