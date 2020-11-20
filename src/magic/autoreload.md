@@ -18,13 +18,13 @@ Disable automatic reloading:
 %autoreload 0
 ```
 
-Reload all modules imported with %aimport every time before executing
+Reload all modules imported with `%aimport` every time before executing
 the Python code typed:
 ```python
 %autoreload 1
 ```
 
-Reload all modules (except those excluded by %aimport) every time
+Reload all modules (except those excluded by `%aimport`) every time
 before executing the Python code typed:
 ```python
 %autoreload 2

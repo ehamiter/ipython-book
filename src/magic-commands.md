@@ -35,7 +35,7 @@ Automagic is ON, % prefix IS NOT needed for line magics.
 In [3]: automagic = print
 
 In [4]: automagic
-Out[4]: &lt;function print&gt;
+Out[4]: <function print>
 
 In [5]: %automagic
 
