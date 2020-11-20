@@ -23,4 +23,4 @@ c.InteractiveShellApp.exec_lines.append('%autoreload 2')
 
 ---
 
-<sup class="footnote-definition" id="fn6">6. As with anything seemingly too good to be true, [it does have its caveats](https://ipython.org/ipython-doc/stable/config/extensions/autoreload.html#caveats) and doesn't work for every case. It works most of the time, though, and can save you a lot of time.<a href="#ref6" title="Jump back to footnote 6 in the text.">↩</a></sup>
+<sup class="footnote-definition" id="fn6">6. As with anything seemingly too good to be true, [it does have its caveats](https://ipython.org/ipython-doc/stable/config/extensions/autoreload.html#caveats) and doesn't work for every case. It works more often than not, though, and can save you a lot of time.<a href="#ref6" title="Jump back to footnote 6 in the text.">↩</a></sup>

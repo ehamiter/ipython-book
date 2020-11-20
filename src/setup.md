@@ -23,5 +23,5 @@ ipython --version
 ```
 
 <pre class="output">
-7.18.1
+7.19.0
 </pre>

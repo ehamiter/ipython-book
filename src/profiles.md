@@ -24,9 +24,9 @@ To launch IPython with this configuration, pass in the name to the `profile` arg
 ipython --profile=zagnut
 ```
 <pre class="output">
-Python 3.8.2 (default, Jul  5 2020, 15:01:50)
+Python 3.9.0 (default, Nov  2 2020, 18:14:37)
 Type 'copyright', 'credits' or 'license' for more information
-IPython 7.18.1 -- An enhanced Interactive Python. Type '?' for help.
+IPython 7.19.0 -- An enhanced Interactive Python. Type '?' for help.
 
 IPython profile: zagnut
 
@@ -47,7 +47,7 @@ It has a [`shell_plus`](https://django-extensions.readthedocs.io/en/latest/shell
 python manage.py shell_plus --ipython -- --profile=zagnut
 ```
 
-<i class="fa fa-fw fa-warning"></i> Note that there is a separate double dash (`--`) before the `--profile`.
+> <i class="fa fa-fw fa-warning"></i> Note that there is a separate double dash (`--`) before the `--profile`.
 
 Since this is kind of a long command to type each time you want to pop into a shell, I alias mine to something much simpler to remember: **P**ython **m**anage **s**hell_plus:
 

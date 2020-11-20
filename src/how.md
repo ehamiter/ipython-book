@@ -27,7 +27,7 @@ ipython --version
 
 Output from shell commands is represented in a color-inverted block:
 <pre class="output">
-7.18.1
+7.19.0
 </pre>
 
 ---

@@ -21,7 +21,7 @@ call line and the body of the cell, consisting of the lines below the first.
 
 Magic commands can be used *without* typing the `%` sign by default— this behavior is altered by running the magic command `%automagic`, which toggles the necessity of the preceding `%` character.
 
-<i class="fa fa-fw fa-warning"></i> Keep in mind that if you create a variable that collides with an automagic command, using your variable (without the explicit `%` prefix) will override the magic command's reference, e.g.
+> <i class="fa fa-fw fa-warning"></i> Keep in mind that if you create a variable that collides with an automagic command, using your variable (without the explicit `%` prefix) will override the magic command's reference, e.g.
 
 ```python
 In [1]: automagic
