@@ -5,7 +5,7 @@
     Print the last traceback.
 </pre>
 
-`%tb` prints the last traceback. You can also pass in exception reporting modes (plain, context, verbose, minimal) to get more or less information (normally set with [`%xmode`](./magic/xmode.md)):
+`%tb` prints the last traceback. You can also pass in exception reporting modes (plain, context, verbose, minimal) to get more or less information (normally set with [`%xmode`](./xmode.md)):
 
 ```python
 In [1]: 5 // 0
