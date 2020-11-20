@@ -46,16 +46,20 @@ It's very handy for cleaning up your code style, especially if the project you'r
 pip install black
 ```
 
-Once caveat that I have found is that if you *do* set the autoformatter to `black`, sometimes it will try and format things that aren't necessarily code. To be specific, there is a magic command [`%history`](../magic/history.md), or its alias `%hist`. You use this to list the history of your IPython session's inputs, and by default it lists them without a corresponding number beside each entry. If you *do* want to see a numbered list, you need to pass in the parameter `n`. So, it should look like this:
+Once caveat that I have found is that if you *do* set the autoformatter to `black`, sometimes it will try and format things that aren't necessarily code if you omit the optional `%` prefix. To be specific, there is a magic command [`%history`](../magic/history.md), or its alias `%hist`. You use this to list the history of your IPython session's inputs, and by default it lists them without a corresponding number beside each entry. If you *do* want to see a numbered list, you need to pass in the parameter `n`. So, it should look like this:
 
 ```python
-%history -n
+history -n
 ```
 
 …but `black` reformats that, which turns it into
 
 ```python
-%history - n
+history - n
 ```
 
-…which isn't an actual command, so you don't see the numbers beside each line. So, this is something you should be aware of.
+…which isn't an actual command, so you don't see the numbers beside each line. So, this is something you should be aware of. To be safe, if you have `black` set to autoformat, try to always use the prefix `%` so there's no confusion:
+
+```python
+%history -n
+```
