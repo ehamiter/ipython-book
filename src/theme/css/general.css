@@ -85,6 +85,17 @@ code {
     border-radius: 4px;
 }
 
+@media screen and ( max-width: 1024px ) {
+  img.responsive { width: 600px; }
+}
+@media (max-width: 480px) {
+  img.responsive { width: 300px; }
+}
+img.responsive {
+  margin: 2rem 0;
+  height: auto;
+}
+
 .cover-huge {
     font-size: 6rem;
     text-align: center;
