@@ -71,4 +71,6 @@
   - [xdel](./magic/xdel.md)
   - [xmode](./magic/xmode.md)
 
+- [Custom magic commands](./custom-magic-commands.md)
+
 [Colophon](./colophon.md)
